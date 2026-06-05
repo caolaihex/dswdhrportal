@@ -1,0 +1,101 @@
+.submit-dtr-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 30px;
+}
+
+.submit-dtr-topbar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.back-btn {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 12px;
+  background: white;
+  color: #003b8e;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.submit-dtr-topbar p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: #64748b;
+}
+
+.submit-dtr-topbar h1 {
+  margin: 3px 0 0;
+  color: #003b8e;
+}
+
+.submit-dtr-card {
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  max-width: 650px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.submit-dtr-header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 25px;
+  color: #003b8e;
+}
+
+.submit-dtr-header h2 {
+  margin: 0;
+}
+
+.submit-dtr-header p {
+  margin: 5px 0 0;
+  color: #64748b;
+}
+
+.submit-dtr-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.submit-dtr-form label {
+  font-weight: 700;
+  color: #334155;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.submit-dtr-form input,
+.submit-dtr-form textarea {
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.submit-dtr-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submit-btn {
+  background: #d71920;
+  color: white;
+  border: none;
+  padding: 13px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #b9151b;
+}
